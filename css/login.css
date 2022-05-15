@@ -8,8 +8,7 @@ body{
 	height: 400px;
 	background-color: white;
 	margin: 0px auto;
-	margin-top: 150px;
-	
+	margin-top: 150px;	
 }
 #login-left{
 	width: 50%;
@@ -17,9 +16,7 @@ body{
 	background-color: #6a6a6a;
 	background-image: url(../img/angle.jpg);
 	background-size: 100%;
-	float: left;
-	
-	
+	float: left;	
 }
 #login-right{
 	width: 50%;
@@ -30,17 +27,16 @@ body{
 	flex-direction: column;
 	text-align: center;
 	color: #3f3f3f;
-	
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 input{
 	width: 90%;
 	height: 30px;
 	margin: 20px;
 	border: 0px;
-	background-color: #e7e7e7;
-	
-	
+	background-color: #e7e7e7;	
 }
 h1{
 	display: block;
